@@ -107,5 +107,4 @@ BATCH_SIZE: training batch size
 
 ## Citation
 
-Wenfeng He^#^, Yiming Li^#^, Yalin Hou, Chengqian Lu, Fuhao Zhang, Dabin Kuang, Min Li, Min Zeng*, "Integrating Multimodal Target Representations to Improve sgRNA Activity Prediction across Cas9 Variants". 
-
+Wenfeng He #, Yiming Li #, Yalin Hou, Chengqian Lu, Fuhao Zhang, Dabin Kuang, Min Li, Min Zeng\*, "Integrating Multimodal Target Representations to Improve sgRNA Activity Prediction across Cas9 Variants".
