@@ -7,6 +7,6 @@ __pycache__/
 *.npz
 *.npy
 results/
-# GenePT_Embedding/
-# unipert_embedding/
-Embedding/
+GenePT_Embedding/
+unipert_embedding/
+# Embedding/
