@@ -30,15 +30,15 @@ Fold_num = 5
 basedir = ["A", "T", "C", "G", "N"]
 idx2base = {idx: base for idx, base in enumerate(basedir)}
 
-PRETRAINED_MODEL_PATH = "/home/Project/CRISPR_M3_transfer/result_pretrain/pretrained_model.pt"
+PRETRAINED_MODEL_PATH = "/home/Project/MTR-Guide/result_pretrain/pretrained_model.pt"
 
 FINETUNE_DATASETS = ["evo", "Hypa", "sniper", "xcas9"]
 
-dataset_dir = "/home/Project/CRISPR_M3_transfer/data_M3"
-unipert_embedding_dir = "/home/Project/CRISPR_M3_transfer/unipert_embedding"
-GenePT_embedding_dir = "/home/Project/CRISPR_M3_transfer/GenePT_Embedding"
-result_base_dir = "/home/Project/CRISPR_M3_transfer/result_finetune"
-protein_dir = '/home/Project/CRISPR_M3_transfer/data_protein'
+dataset_dir = "/home/Project/MTR-Guide/MTR-Guide_transfer/data_M3"
+unipert_embedding_dir = "/home/Project/MTR-Guide/UniPert_Embedding"
+GenePT_embedding_dir = "/home/Project/MTR-Guide/GenePT_Embedding"
+result_base_dir = "/home/Project/MTR-Guide/result_finetune"
+protein_dir = '/home/Project/MTR-Guide/MTR-Guide_transfer/data_protein'
 
 MODULE_CONFIG = {
     'A': {'name': 'sgRNA_encoder', 'layers': ['conv1', 'conv2', 'conv3', 'conv4']},

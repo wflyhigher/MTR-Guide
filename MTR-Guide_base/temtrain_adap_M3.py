@@ -262,11 +262,11 @@ def create_stratification_labels(labels, geneids, n_bins, use_stratification=Tru
 def worker_init_fn(worker_id):
     np.random.seed(random_seed + worker_id)
 
-dataset_dir = "/home/Project/CRISPR_M3_base/Embedding/data_embedding/data_esp_kim"
-unipert_embedding_dir = "/home/Project/CRISPR_M3_base/unipert_embedding"
-result_base_dir = "/home/Project/CRISPR_M3_base/result_M3/result_single_M3_esp_kim"
-tensorboard_base_dir = "/home/Project/CRISPR_M3_base/result_M3/result_single_M3_esp_kim"
-GenePT_embedding_dir ="/home/Project/PLM+genePT/GenePT_Embedding"
+dataset_dir = "/home/Project/MTR-Guide/Data_Embedding/data_esp_kim"
+unipert_embedding_dir = "/home/Project/MTR-Guide/UniPert_Embedding"
+result_base_dir = "/home/Project/MTR-Guide/result/result_single_esp_kim"
+tensorboard_base_dir = "/home/Project/MTR-Guide/result/result_single_esp_kim"
+GenePT_embedding_dir ="/home/Project/MTR-Guide/GenePT_Embedding"
 
 datasets = [d for d in os.listdir(dataset_dir) if os.path.isdir(os.path.join(dataset_dir, d))]
 print(f"Found {len(datasets)} datasets: {datasets}")

@@ -36,11 +36,11 @@ OVERSAMPLE_CONFIG = {
     "WT_xiang": 10000
 }
 
-dataset_dir = "/home/Project/CRISPR_M3_transfer/data_M3"
-unipert_embedding_dir = "/home/Project/CRISPR_M3_transfer/unipert_embedding"
-GenePT_embedding_dir = "/home/Project/CRISPR_M3_transfer/GenePT_Embedding"
-result_base_dir = "/home/Project/CRISPR_M3_transfer/result_pretrain"
-protein_dir = '/home/Project/CRISPR_M3_transfer/data_protein'
+dataset_dir = "/home/Project/MTR-Guide/MTR-Guide_transfer/data_M3"
+unipert_embedding_dir = "/home/Project/MTR-Guide/UniPert_Embedding"
+GenePT_embedding_dir = "/home/Project/MTR-Guide/GenePT_Embedding"
+result_base_dir = "/home/Project/MTR-Guide/result_pretrain"
+protein_dir = '/home/Project/MTR-Guide/MTR-Guide_transfer/data_protein'
 
 MODEL_SAVE_PATH = os.path.join(result_base_dir, "pretrained_model.pt")
 
