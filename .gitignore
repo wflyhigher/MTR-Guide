@@ -3,10 +3,6 @@ __pycache__/
 *.pth
 *.ckpt
 *.bin
-*.pkl
 *.npz
 *.npy
 results/
-GenePT_Embedding/
-unipert_embedding/
-# Embedding/
