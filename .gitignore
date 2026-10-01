@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pth
+*.ckpt
+*.bin
+*.pkl
+*.npz
+*.npy
+results/
+checkpoints/
+GenePT_Embedding/
+unipert_embedding/
+Embedding/
