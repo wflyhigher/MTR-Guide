@@ -24,15 +24,24 @@ The supplied environment file contains Linux/CUDA package builds. Linux or WSL2 
 
 ### Data and Feature Files
 
-The required data and pre-computed features are already included in the repository:
+The required datasets and pre-computed features are provided in the repository or through the download link below.
 
-- `MTR-Guide_transfer/data_M3`: transfer-learning datasets
-- `MTR-Guide_transfer/unipert_embedding`: UniPert protein embeddings
-- `MTR-Guide_transfer/GenePT_Embedding`: GenePT gene embeddings
-- `MTR-Guide_transfer/data_protein`: processed Cas9 protein feature files
-- `MTR-Guide_base`: base-model data, embeddings and ablation scripts
+### Data and Pre-computed Features
 
-The data loader expects tab-separated files containing `Sequence`, `Value`, `Protein_ID`, `Gene_B`, `Protein` and the 28 biological feature columns. Sequences are filtered to length 23, and records without matching UniPert or GenePT embeddings are skipped.
+* `MTR-Guide_transfer/data_M3`: transfer-learning datasets
+* `MTR-Guide_transfer/data_protein`: processed Cas9 protein feature files
+* `MTR-Guide_base`: base-model data and ablation scripts
+* `GenePT_Embedding`: pre-computed GenePT gene embeddings
+* `unipert_embedding`: pre-computed UniPert protein embeddings
+* `Data_Embedding`: pre-computed feature files
+
+The **GenePT embeddings, UniPert embeddings, and Data_Embedding files** are provided separately via Google Drive:
+
+**Google Drive:** [Download pre-computed features](https://drive.google.com/file/d/1vx-0dXN27qna9hzmZ-eBGZRY66aHi2lv/view?usp=drive_link)
+
+After downloading, place the files in their corresponding directories before running the experiments.
+
+The data loader expects tab-separated files containing `Sequence`, `Value`, `Protein_ID`, `Gene_B`, `Protein`, and the 28 biological feature columns. Sequences are filtered to a length of 23 nt, and records without corresponding UniPert or GenePT embeddings are skipped.
 
 ### Configure Paths and GPU
 
